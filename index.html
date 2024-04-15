@@ -1,0 +1,166 @@
+	<!DOCTYPE html>
+	<html>
+
+    <head>
+
+        <!--This changes the title of the website located on the actual web tab-->
+        <title>Thomas' Website</title>
+
+        <!--This links the themes javascript to the index page-->
+        <script src="Themes.js"></script>
+
+        <!--This creates the skeleton of the navbar on top of the website-->
+        <div class="navbar">
+
+             <!--This creates the div for the dropdown menu, calls the functions to apply themes and also sets the cookie's value to a set name-->
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Themes</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#" onclick="DefaultFunction(), setCookie('Default')">Default</a>
+              <a href="#" onclick="DarkModeFunction(), setCookie('Dark')">Dark Mode</a>
+              <a href="#" onclick="PartyModeFunction(), setCookie('Party')">Party Mode</a>
+          
+            </div>
+          </div>
+
+          <div class="basiclinks">
+
+            <!--This is creating the basic links on the navbar!-->
+            <a class="active" href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact Us</a>
+            <a href="ProdandServe.html">Products & Services</a>
+            
+          </div>
+
+          
+          </div>
+
+         
+          
+
+        <!--This links my CSS file to this HTML file so that anything that is edited on that document will appear on the website-->
+        <link rel="stylesheet" href="index.css"/>
+        <link rel="stylesheet" href="DarkMode.css"/>
+        <link rel="stylesheet" href="PartyMode.css"/>
+
+    </head>
+	<body>
+
+
+        <!--This should create the hero image at the top of the page-->
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1>Chew Technologies</h1>
+                <p>One stop shop for IT services</p>
+            </div>
+        
+        </div>
+        
+        
+    <!--hr creates a line across the webpage, just to make it look nice-->
+    <hr>
+
+    <br>
+    
+    <br>
+
+    <h2>Welcome to Chew Technologies.</h2>
+
+    <br>
+
+    <p>Here at Chew Technologies incorporated, we hope to supply you with the best deals on hardware and services on the market.</p>
+
+    <br>
+
+    <img src="Images/Placeholder-Image2.png" height="400" width="400" title="This is a placeholder image" class="center">
+
+    <br>
+
+    <!--This about me section is a placeholder that needs to be updated.-->
+    <H2>Our Mission:</H2>
+    <p>Our mission as a company is to make it as easy as possible for users to aquire everything that they need in their journey to having a functional officespace. <br> We have been
+        providing as many services as possible to outside sources that may be struggling with this in order to acheive our goal. In doing this we hope to help educate users and large
+    scale companies alike in the field of Information Technology. </p>
+
+    <!--The br command lets me create a line break to put text lines below each other and create space-->
+    <br>
+
+
+    <br>
+    <br>
+
+    <!--The line below allows me to insert images into my website, currently a placeholder that will be replaced in the near future. The class being set to center links it to the
+    definition of center that I added in the CSS file-->
+    <img src="Images/Placeholder Image 1.jpg" height="400" width="400" title="This is a placeholder image" class="center">
+
+    <br>
+    <br>
+    <br>
+
+    <h1 class="meettheteam">Meet the team:</h1>
+    <!--This is for the employees section-->
+    <ul id="Employees">
+        
+        <li class="Employee-item">
+            <img src="Images/JoePesci.jpg" height="600" width="900" title="Joe Pesci">
+            <div class="employeecontent">
+            <h4 style="text-align: center;">Joe Pesci</h4>
+            <h4 style="text-align: center;">Networking Specialist</h4>
+        </div>
+          </li>
+
+          <li class="Employee-item">
+            <img src="Images/AlPachino.jpg" height="600" width="900" title="Al Pachino">
+            <div class="employeecontent">
+            <h4 style="text-align: center;">Al Pachino</h4>
+            <h4 style="text-align: center;">Head of Human Resources</h4>
+        </div>
+          </li>
+
+          <li class="Employee-item">
+            <img src="Images/SylvesterStallone.jpg" height="600" width="900" title="Sylvester Stallone">
+            <div class="employeecontent">
+            <h4 style="text-align: center;">Sylvester Stallone</h4>
+            <h4 style="text-align: center;">Marketing Specialist</h4>
+        </div>
+          </li>
+
+          <li class="Employee-item">
+            <img src="Images/RobertDeNiro.jpg" height="600" width="900" title="Robert De Niro">
+            <div class="employeecontent">
+            <h4 style="text-align: center;">Robert De Niro</h4>
+            <h4 style="text-align: center;">Lead Software Developer</h4>
+        </div>
+          </li>
+
+    </ul>
+
+    
+    
+    <br>
+    <br>
+
+    <!--This creates the footer of the webpage-->
+    <footer class="footer">
+        <div class="container">
+            <div class="containercontent">
+            <H3>Creator Name</H3>
+            <p>Thomas Chew</p>
+            <p>Address: 123 FakeStreet Lane</p>
+            <p>Copyright&copy; of Thomas Chew</p>
+        </div>
+        </div>
+    </footer>
+
+    <!--This links the JS file to this HTML file-->
+    <script src="index.js"></script>
+    
+
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="DarkMode.css"/>
+    <link rel="stylesheet" href="PartyMode.css"/>
+
+    
+    </body>
+    </html>

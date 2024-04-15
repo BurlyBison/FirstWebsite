@@ -1,0 +1,32 @@
+body.DarkModeFunction {
+
+    background-color: gray;
+    color:aliceblue;
+}
+
+body.DarkModeFunction .navbar {
+    background-color: rgb(33, 33, 36);
+
+}
+
+body.DarkModeFunction .basiclinks a {
+
+    color: azure;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    margin-left:50px ;
+    margin-right:40px;
+    padding-left: 50px ;
+    text-decoration: none;
+    
+    
+}
+
+body.DarkModeFunction H1 {
+    color: rgb(255, 255, 255);
+}
+
+body.DarkModeFunction .footer{
+    background-color: rgb(33, 33, 36)
+}
