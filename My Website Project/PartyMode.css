@@ -1,0 +1,32 @@
+body.PartyModeFunction {
+
+    background-color: rgb(131, 38, 131);
+    color:rgb(245, 245, 245);
+}
+
+body.PartyModeFunction .navbar {
+    background-color: rgb(255, 0, 179);
+
+}
+
+body.PartyModeFunction .basiclinks a {
+
+    color: rgb(19, 224, 224);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    margin-left:50px ;
+    margin-right:40px;
+    padding-left: 50px ;
+    text-decoration: none;
+    
+    
+}
+
+body.PartyModeFunction H1 {
+    color: rgb(155, 78, 117);
+}
+
+body.PartyModeFunction .footer{
+    background-color: rgb(255, 0, 179)
+}

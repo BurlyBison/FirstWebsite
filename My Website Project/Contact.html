@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Thomas' Website</title>
+
+
+      <!--This creates the skeleton of the navbar on top of the website-->
+      <div class="navbar">
+            
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact Us</a>
+        <a href="ProdandServe.html">Products & Services</a>
+        
+    </div>
+
+    <link rel="stylesheet" href="Contact.css"/>
+    <link rel="stylesheet" href="DarkMode.css"/>
+    <link rel="stylesheet" href="PartyMode.css"/>
+</head>
+
+<body>
+
+    <h3><ins>Contact information</ins></h3>
+    <!--below is a table that I've created in order to have my contact information displayed on the bottom of the website.-->
+    <table bgcolor="Black">
+        <tr bgcolor="LightGreen">
+            <th>Phone Number</th>
+            <th>Email Address</th>
+            <th>Location</th>
+            <th>Postal Code</th>
+        </tr>
+        <tr bgcolor="LightBlue">
+            <td>(555)555-5555</td>
+            <td>FakeName@FakeWebsite.com</td>
+            <td>Sydney,NS</td>
+            <td>G5G 5G5</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <p>If you are interested in reaching out to me please either use my contact information(listed above) or fill our your contact information(listed below) and click the Submit button:</p>
+
+    <br>
+
+    <!--below is a form for a user to be filled out by the user for me to gather their contact information and get back to them at a later date.-->
+    <form>
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" placeholder="John">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" placeholder="Doe">
+        <br>
+        <br>
+        <label for="pnum">Phone Number</label>
+        <input type="text" id="pnum" name="pnum" placeholder="(555)555-5555">
+        <label for="email">Email Address</label>
+        <input type="text" id="email" name="email" placeholder="JohnDoe@fakeaddress.com">
+
+    </form>
+
+    <br>
+    <!--This creates a clickable button on the webpage that will open their mail app and direct an email to my school address-->
+	<button onclick="location.href='mailto:w0402782@nscc.ca'">Submit</button>
+
+    
+</body>
+
+<!--The main section is required to make sure that the footer stays stuck to the bottom of the page because of the way that I set up the calc-->
+<main>
+    <h2>This is a test</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure aliquid eligendi modi. Doloribus saepe corrupti, at velit tempore tempora veritatis odio in sunt alias incidunt omnis eveniet voluptates laboriosam nisi.</p>
+  </main>
+
+    <!--This creates the footer of the webpage-->
+    <footer class="footer">
+        <div class="container">
+            <div class="containercontent">
+            <H3>Creator Name</H3>
+            <p>Thomas Chew</p>
+            <p>Address: 123 FakeStreet Lane</p>
+            <p>Copyright&copy; of Thomas Chew</p>
+        </div>
+        </div>
+      </footer>
+
+
+
+<link rel="stylesheet" href="DarkMode.css"/>
+<link rel="stylesheet" href="PartyMode.css"/>
+<script src="Themes.js"></script>
+
+</html>

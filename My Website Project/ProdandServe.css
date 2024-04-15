@@ -1,0 +1,71 @@
+/*This is the color and padding for the navbar, the text align will align the navbar links to the center*/
+.navbar {
+    background-color: rgb(37, 37, 37);
+    margin: 0;
+    padding: 30px 10px;
+    text-align: center;
+  }
+
+    /*This will edit the links on the navbar visually*/
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    margin-left:50px ;
+    margin-right:40px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 5px;
+  }
+
+   /*This removes the issue that I was having with the gap between the navbar and webpage*/
+   body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: rgba(156, 164, 182, 0.712);
+}
+
+/*This removes the black bullet point dot that was appearing next to li items*/
+ul{list-style-type: none;
+}
+
+/*This is for the layout of the images on the products section of the prodandserve page*/
+#layout {
+  display:flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;  
+}
+
+/*This is to make the border around the images look nice and add a transition time*/
+.layout-item{
+  background-color: white;
+  box-shadow: 0px 0px 15px rgba(0,0,0,02);
+  border-radius: 5px;
+  width: 400px;
+  height: 500px;
+  margin-top: 3em;
+  transition: 0.5s;
+}
+
+/*This utilizes the transition time set above to scale up the size of the image when it is hovered over*/
+.layout-item:hover{
+  transform:scale(1.15)
+}
+
+/*This styles the footer*/
+.footer {
+  margin-top: auto;
+  background-color: rgb(37, 37, 37);
+  padding:2em 0;
+  height:10em; 
+  
+}
+
+/*This modifies the text on the footer*/
+.containercontent {
+  color:white;
+}
